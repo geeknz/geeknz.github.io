@@ -8,3 +8,4 @@ github_username:  geeknz
 markdown: kramdown
 theme: jekyll-theme-cayman
 permalink: /:title/
+google_analytics: 'UA-134197797-1'
