@@ -1,0 +1,9 @@
+title: www.colin.geek.nz
+email: coder@colin.geek.nz
+description: www.colin.geek.nz
+baseurl: ""
+url: "https://www.colin.geek.nz"
+twitter_username: codergeeknz
+github_username:  geeknz
+markdown: kramdown
+theme: jekyll-theme-cayman
