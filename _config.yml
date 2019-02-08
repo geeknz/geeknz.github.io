@@ -7,3 +7,4 @@ twitter_username: codergeeknz
 github_username:  geeknz
 markdown: kramdown
 theme: jekyll-theme-cayman
+permalink: /:title/
