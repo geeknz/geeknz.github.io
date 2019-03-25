@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Ubuntu 18.04 Minimal Install"
+date: '2019-03-25 22:58:00'
+categories: ubuntu, linux, bionic beaver, minimal
+---
+
+# Ubuntu 18.04 Minimal Install
+
+After getting a replacement graphics card for my machine I decided it was time to do a clean install. When I do a clean install, I like to install the "bare" minimal and install applications later as I need them.
+
+## Install from Netboot Image
+
+To install Ubuntu without any of the additional extras, I use the netboot images from http://cdimage.ubuntu.com/netboot/
+
+During the install when prompted for software selection, I did not select any of the options available.
+
+## Post Install
+
+After the install was complete, I had a clean system to log into. Now I needed the basics. For me this is Gnome Shell as my desktop environment, Visual Studio Code as my text editor, and Google Chrome as my browser, Guake as my terminal and Nautilus as my file manager. At the same time I added Gnome Extensions, chrome-gnome-shell, and the drivers for my graphics card. See below,
+
+```bash
+sudo apt-get install code chrome-gnome-shell gdm3 gnome-shell google-chrome-stable guake nautilus nvidia-driver-418 vim xserver-xorg
+```
